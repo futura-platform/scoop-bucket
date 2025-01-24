@@ -1,0 +1,32 @@
+{
+    "version": "0.1.41",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/futura-platform/ftr-dist/releases/download/v0.1.41/ftr-dist_0.1.41_windows_amd64.tar.gz",
+            "bin": [
+                "ftr.exe"
+            ],
+            "hash": "48677cc1b9c365695696a3c3671a066f06f853ec0ddd5246ea2a176643919f34"
+        },
+        "arm64": {
+            "url": "https://github.com/futura-platform/ftr-dist/releases/download/v0.1.41/ftr-dist_0.1.41_windows_arm64.tar.gz",
+            "bin": [
+                "ftr.exe"
+            ],
+            "hash": "ad2d3d2b6e0344a971b92fbf6e54c62375ae11a30d4a7f988e13d425f92f8d51"
+        }
+    },
+    "homepage": "https://www.futuralabs.app/",
+    "license": "MIT",
+    "description": "Command-line tool for Futura Labs",
+    "pre_install": [
+        "Write-Host 'Running preinstall command'"
+    ],
+    "post_install": [
+        "Write-Host 'Running postinstall command'"
+    ],
+    "depends": [
+        "zig",
+        "zstd"
+    ]
+}
