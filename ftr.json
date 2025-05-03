@@ -1,19 +1,19 @@
 {
-    "version": "0.1.60",
+    "version": "0.1.61",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/futura-platform/ftr-dist/releases/download/v0.1.60/ftr-dist_0.1.60_windows_amd64.tar.gz",
+            "url": "https://github.com/futura-platform/ftr-dist/releases/download/v0.1.61/ftr-dist_0.1.61_windows_amd64.tar.gz",
             "bin": [
                 "ftr.exe"
             ],
-            "hash": "65296b4d9ee9bb6e27fd935be3d2b1395fb62dff63dc9034b3d162be9d76e918"
+            "hash": "5a73b5f03966463fcdacbb4a32d29a8cf1086ceb016075f1fb4051808c907083"
         },
         "arm64": {
-            "url": "https://github.com/futura-platform/ftr-dist/releases/download/v0.1.60/ftr-dist_0.1.60_windows_arm64.tar.gz",
+            "url": "https://github.com/futura-platform/ftr-dist/releases/download/v0.1.61/ftr-dist_0.1.61_windows_arm64.tar.gz",
             "bin": [
                 "ftr.exe"
             ],
-            "hash": "e7acb182f1b908b2996bb5db8dcae22344b7c540f77dee47ac2e512a7f7413c4"
+            "hash": "85dac78af6712a8322de74e85c8de8646705a819e250f5b2e223190d8d01d57b"
         }
     },
     "homepage": "https://www.futuralabs.app/",
